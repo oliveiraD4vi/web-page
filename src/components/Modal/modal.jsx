@@ -11,7 +11,7 @@ const Modal = ({ children, title, btn }) => {
 
   return (
     <div>
-      <button onClick={handleToggle}>{btn ? btn : 'Open Modal'}</button>
+      <button onClick={handleToggle}>{btn ? btn : "Open Modal"}</button>
       {isOpen && (
         <div className="wrapper">
           <div className="modal">

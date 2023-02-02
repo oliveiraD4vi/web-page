@@ -4,3 +4,9 @@ body {
   color: var(--white-700);
   background-color: var(--gray-700);
 }
+
+.App {
+  display: grid;
+  width: 100%;
+  gap: 20px;
+}
