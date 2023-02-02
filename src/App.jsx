@@ -1,3 +1,5 @@
+import "./styles/_default.css";
+
 export default function App() {
   return (
     <div className="App">
